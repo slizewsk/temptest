@@ -35,7 +35,7 @@ docs = [
     "sphinx-automodapi",
 ]
 [project.urls]
-repository = "None"
+repository = "None.git"
 
 [tool.setuptools]
 zip-safe = false
