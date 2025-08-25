@@ -28,7 +28,7 @@ open_astronomy_package_template_example = "temptest.example_mod:main"
 test = [
     "pytest",
     "pytest-doctestplus",
-    "pytest-cov"
+    "pytest-cov",
 ]
 docs = [
     "sphinx",
@@ -56,6 +56,7 @@ testpaths = [
 doctest_plus = "enabled"
 text_file_format = "rst"
 addopts = "--doctest-rst"
+norecursedirs = ["temptest[\\/]_dev"]
 
 [tool.coverage.run]
 omit = [
